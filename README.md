@@ -15,10 +15,10 @@ This project provides a hands-on approach to understanding algorithm complexity.
 The following algorithms are measured and analyzed:
 
 * **Searching:**
-    * Linear Search
+    * Linear Search ($\Omega(1)$, $\mathcal{O}(n)$)
 * **Sorting:**
-    * Selection Sort
-    * Insertion Sort
+    * Selection Sort ($\Theta(n^2)$)
+    * Insertion Sort ($\Omega(n)$, $\mathcal{O}(n^2)$)
 
 -----
 
@@ -95,7 +95,7 @@ The `Graphics` directory contains the generated PDF files with the complexity pl
 
 Note that the sample data files and the graphics are using data from the execution of the measurement
 programs, executed in a JVM in client mode. That said, the times may be higher than those obtained in a JVM in server mode.
-Anyway, the goal is to show the complexity of the algorithms, not to measure the absolute time,
+Anyway, **the goal is to show the complexity of the algorithms**, not to measure the absolute time,
 and the results are perfectly reflecting that.
 
 Example of another sample dat file for Insertion Sort using a server mode JVM:
@@ -116,14 +116,14 @@ Example of another sample dat file for Insertion Sort using a server mode JVM:
   10000  7.150745  9095.712  4636.191
 
 ```
-### Insertion Sort Complexity
+### Insertion Sort Complexity ($\Omega(n)$, $\mathcal{O}(n^2)$)
 
 *(Source: Graphics/InsertionSortComplexity.pdf)*
 
-### Linear Search Complexity
+### Linear Search Complexity ($\Omega(1)$, $\mathcal{O}(n)$)
 
 *(Source: Graphics/LinearSearchComplexity.pdf)*
 
-### Selection Sort Complexity
+### Selection Sort Complexity ($\Theta(n^2)$)
 
 *(Source: Graphics/SelectionSortComplexity.pdf)*
