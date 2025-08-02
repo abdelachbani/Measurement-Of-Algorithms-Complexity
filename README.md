@@ -93,7 +93,8 @@ The project is divided into two main parts:
 
 The `Graphics` directory contains the generated PDF files with the complexity plots.
 
-> [!NOTE] The sample data files and the graphics are using data from the execution of the measurement
+> [!NOTE]
+> The sample data files and the graphics are using data from the execution of the measurement
 programs, executed in a JVM in client mode. That said, the times may be higher than those obtained in a JVM in server mode.
 Anyway, **the goal is to show the complexity of the algorithms**, not to measure the absolute time,
 and the results are perfectly reflecting that.
